@@ -1,23 +1,23 @@
 # Simple_FFNN_c-
 A simple Feed Forward Neural Network in C++ using doubly linked list  
-##Brief:-
+## Brief:-
 A Simple Feed Forward Neural Network in C++ using doubly linked list  
-##Requirement:-
+## Requirement:-
 Only C++ standard library  
-##Last Updated:-
+## Last Updated:-
 2014 (Pre-Tensorflow ERA)  
 Tested on **_MNIST_** with test accuracy of **_95.25%_**. (See runlogs below)  
-##MNIST data link:-
+## MNIST data link:-
 http://yann.lecun.com/exdb/mnist/  
-##License:-
+## License:-
 BSD2.0  
-##Usage:- 
+## Usage:- 
 *./a.out <train_images> <train_labels> <test_images> <test_labels>*
 
 
 
 
-**RUN LOGS**
+**RUN LOGS**  
 _magicnum:2051,images:60000,rows:28,cols:28  
 magicnum:2049,labels:60000  
 magicnum:2051,images:10000,rows:28,cols:28  
@@ -49,26 +49,27 @@ Epoch 24, Accuracy(Validation Data) : 9538/10000  Accuracy(Test Data) : 9413/100
 Epoch 25, Accuracy(Validation Data) : 9567/10000  Accuracy(Test Data) : 9419/10000   
 Epoch 26, Accuracy(Validation Data) : 9574/10000  Accuracy(Test Data) : 9428/10000   
 Epoch 27, Accuracy(Validation Data) : 9504/10000  Accuracy(Test Data) : 9430/10000   
-Epoch 28, Accuracy(Validation Data) : 9625/10000  Accuracy(Test Data) : 9478/10000   _
-Epoch 29, Accuracy(Validation Data) : 9614/10000  Accuracy(Test Data) : 9477/10000 
-Epoch 30, Accuracy(Validation Data) : 9578/10000  Accuracy(Test Data) : 9460/10000 
-Epoch 31, Accuracy(Validation Data) : 9576/10000  Accuracy(Test Data) : 9440/10000 
-Epoch 32, Accuracy(Validation Data) : 9612/10000  Accuracy(Test Data) : 9461/10000 
-Epoch 33, Accuracy(Validation Data) : 9599/10000  Accuracy(Test Data) : 9403/10000 
-Epoch 34, Accuracy(Validation Data) : 9600/10000  Accuracy(Test Data) : 9437/10000 
-Epoch 35, Accuracy(Validation Data) : 9576/10000  Accuracy(Test Data) : 9489/10000 
-Epoch 36, Accuracy(Validation Data) : 9637/10000  Accuracy(Test Data) : 9516/10000 
-Epoch 37, Accuracy(Validation Data) : 9606/10000  Accuracy(Test Data) : 9484/10000 
-Epoch 38, Accuracy(Validation Data) : 9612/10000  Accuracy(Test Data) : 9517/10000 
-Epoch 39, Accuracy(Validation Data) : 9633/10000  Accuracy(Test Data) : 9500/10000 
-Epoch 40, Accuracy(Validation Data) : 9644/10000  Accuracy(Test Data) : 9485/10000 
-Epoch 41, Accuracy(Validation Data) : 9601/10000  Accuracy(Test Data) : 9477/10000 
-Epoch 42, Accuracy(Validation Data) : 9657/10000  Accuracy(Test Data) : 9498/10000 
-Epoch 43, Accuracy(Validation Data) : 9608/10000  Accuracy(Test Data) : 9497/10000 
-Epoch 44, Accuracy(Validation Data) : 9660/10000  Accuracy(Test Data) : 9499/10000 
-Epoch 45, Accuracy(Validation Data) : 9639/10000  Accuracy(Test Data) : 9502/10000 
-Epoch 46, Accuracy(Validation Data) : 9633/10000  Accuracy(Test Data) : 9493/10000 
-Epoch 47, Accuracy(Validation Data) : 9691/10000  Accuracy(Test Data) : 9525/10000 
-Epoch 48, Accuracy(Validation Data) : 9635/10000  Accuracy(Test Data) : 9467/10000 
-Epoch 49, Accuracy(Validation Data) : 9643/10000  Accuracy(Test Data) : 9509/10000 
-Epoch 50, Accuracy(Validation Data) : 9660/10000  Accuracy(Test Data) : 9516/10000 
+Epoch 28, Accuracy(Validation Data) : 9625/10000  Accuracy(Test Data) : 9478/10000   
+Epoch 29, Accuracy(Validation Data) : 9614/10000  Accuracy(Test Data) : 9477/10000   
+Epoch 30, Accuracy(Validation Data) : 9578/10000  Accuracy(Test Data) : 9460/10000   
+Epoch 31, Accuracy(Validation Data) : 9576/10000  Accuracy(Test Data) : 9440/10000   
+Epoch 32, Accuracy(Validation Data) : 9612/10000  Accuracy(Test Data) : 9461/10000   
+Epoch 33, Accuracy(Validation Data) : 9599/10000  Accuracy(Test Data) : 9403/10000   
+Epoch 34, Accuracy(Validation Data) : 9600/10000  Accuracy(Test Data) : 9437/10000   
+Epoch 35, Accuracy(Validation Data) : 9576/10000  Accuracy(Test Data) : 9489/10000   
+Epoch 36, Accuracy(Validation Data) : 9637/10000  Accuracy(Test Data) : 9516/10000   
+Epoch 37, Accuracy(Validation Data) : 9606/10000  Accuracy(Test Data) : 9484/10000   
+Epoch 38, Accuracy(Validation Data) : 9612/10000  Accuracy(Test Data) : 9517/10000   
+Epoch 39, Accuracy(Validation Data) : 9633/10000  Accuracy(Test Data) : 9500/10000   
+Epoch 40, Accuracy(Validation Data) : 9644/10000  Accuracy(Test Data) : 9485/10000   
+Epoch 41, Accuracy(Validation Data) : 9601/10000  Accuracy(Test Data) : 9477/10000   
+Epoch 42, Accuracy(Validation Data) : 9657/10000  Accuracy(Test Data) : 9498/10000   
+Epoch 43, Accuracy(Validation Data) : 9608/10000  Accuracy(Test Data) : 9497/10000   
+Epoch 44, Accuracy(Validation Data) : 9660/10000  Accuracy(Test Data) : 9499/10000   
+Epoch 45, Accuracy(Validation Data) : 9639/10000  Accuracy(Test Data) : 9502/10000   
+Epoch 46, Accuracy(Validation Data) : 9633/10000  Accuracy(Test Data) : 9493/10000   
+Epoch 47, Accuracy(Validation Data) : 9691/10000  Accuracy(Test Data) : 9525/10000   
+Epoch 48, Accuracy(Validation Data) : 9635/10000  Accuracy(Test Data) : 9467/10000   
+Epoch 49, Accuracy(Validation Data) : 9643/10000  Accuracy(Test Data) : 9509/10000   
+Epoch 50, Accuracy(Validation Data) : 9660/10000  Accuracy(Test Data) : 9516/10000_  
+**RUN LOGS END**  
